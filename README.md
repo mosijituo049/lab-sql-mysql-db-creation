@@ -83,6 +83,21 @@ Your end product of this challenge should look something like the E-R diagram sh
 
 Using pen and paper (or computer software if you are skilled at creating digital diagrams), design a database to meet the minimum requirements of the task.
 
+Country
+ └── State
+      └── City
+           ├── Customers
+           └── Stores
+                └── Salespersons
+
+Manufacturers
+ └── Models
+      └── Cars
+
+Cars
+Customers
+Salespersons
+    └── Invoices
 
 ## Challenge 2 - Create the Database and Tables
 
