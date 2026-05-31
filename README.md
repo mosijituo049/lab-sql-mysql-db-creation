@@ -103,7 +103,7 @@ erDiagram
 
     CUSTOMERS ||--o{ INVOICES : purchases
     SALESPERSONS ||--o{ INVOICES : sells
-    CARS ||--o| INVOICES : appears_on
+    CARS ||--o| INVOICES : sold_as
 
     COUNTRY {
         bigint country_id PK
@@ -192,7 +192,6 @@ erDiagram
 - Customer → Invoices : One-to-Many (1:N)
 - Salesperson → Invoices : One-to-Many (1:N)
 - Car → Invoice : One-to-One (1:1)
-```
 
 ## Challenge 2 - Create the Database and Tables
 
