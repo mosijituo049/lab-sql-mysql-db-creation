@@ -178,6 +178,7 @@ erDiagram
         date invoice_date
     }
 
+```
 ## Relationships
 
 - Country → State : One-to-Many (1:N)
@@ -191,8 +192,6 @@ erDiagram
 - Customer → Invoices : One-to-Many (1:N)
 - Salesperson → Invoices : One-to-Many (1:N)
 - Car → Invoice : One-to-One (1:1)
-```
-
 ```
 
 ## Challenge 2 - Create the Database and Tables
